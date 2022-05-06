@@ -8,7 +8,7 @@ if choice_number.isdigit():
     choice_number = int(choice_number)
 else:
     print("Error: entered value is not numeric. Please run again and enter a number")
-    quit()
+    raise
 
 random_number = random.randint(0, choice_number)
 
